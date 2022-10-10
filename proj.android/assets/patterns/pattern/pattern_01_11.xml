@@ -1,0 +1,93 @@
+<pattern name="pattern_01_11.xml" difficultyLevel="1" width="640.0" height="2200.0">
+   <coins class="java.util.ArrayList">
+      <coin class="highhi_resourceeditor.models.Coin" x="86.0" y="188.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="86.0" y="122.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="86.0" y="258.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="86.0" y="328.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="142.0" y="258.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="142.0" y="328.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="200.0" y="328.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="200.0" y="258.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="142.0" y="188.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="142.0" y="122.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="200.0" y="188.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="200.0" y="122.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="262.0" y="122.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="262.0" y="188.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="262.0" y="258.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="262.0" y="328.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="428.0" y="646.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="484.0" y="646.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="540.0" y="646.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="428.0" y="712.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="484.0" y="712.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="540.0" y="712.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="428.0" y="780.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="484.0" y="780.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="540.0" y="780.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="600.0" y="646.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="600.0" y="716.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="600.0" y="780.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="428.0" y="842.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="480.0" y="842.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="540.0" y="842.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="600.0" y="842.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="262.0" y="1146.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="200.0" y="1146.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="142.0" y="1146.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="86.0" y="1146.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="86.0" y="1212.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="142.0" y="1212.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="200.0" y="1212.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="262.0" y="1212.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="86.0" y="1276.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="142.0" y="1276.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="200.0" y="1276.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="262.0" y="1276.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="86.0" y="1342.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="142.0" y="1342.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="200.0" y="1342.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="262.0" y="1342.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="222.0" y="1680.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="310.0" y="1680.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="394.0" y="1680.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="480.0" y="1680.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="270.0" y="1766.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="354.0" y="1766.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="440.0" y="1766.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="310.0" y="1848.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="178.0" y="1596.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="270.0" y="1596.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="354.0" y="1596.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="440.0" y="1596.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="532.0" y="1596.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="394.0" y="1848.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="354.0" y="1928.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="354.0" y="1518.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="312.0" y="1432.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="170.0" y="1244.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="510.0" y="744.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="170.0" y="224.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="312.0" y="428.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="374.0" y="538.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="380.0" y="928.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="324.0" y="1038.0" imagePath="CoinNormal" type="coin" size="normal"/>
+   </coins>
+   <items class="java.util.ArrayList"/>
+   <traps class="java.util.ArrayList"/>
+   <footBars class="java.util.ArrayList">
+      <footBar class="highhi_resourceeditor.models.FootBar" x="174.0" y="614.0" imagePath="FootBar" type="footBar" angle="0.0"/>
+      <footBar class="highhi_resourceeditor.models.FootBar" x="514.0" y="1096.0" imagePath="FootBar" type="footBar" angle="0.0"/>
+   </footBars>
+   <starfishes class="java.util.ArrayList">
+      <starfish class="highhi_resourceeditor.models.Starfish" x="354.0" y="2016.0" imagePath="Starfish" type="starfish"/>
+      <starfish class="highhi_resourceeditor.models.Starfish" x="176.0" y="698.0" imagePath="Starfish" type="starfish"/>
+      <starfish class="highhi_resourceeditor.models.Starfish" x="518.0" y="1188.0" imagePath="Starfish" type="starfish"/>
+      <starfish class="highhi_resourceeditor.models.Starfish" x="268.0" y="1914.0" imagePath="Starfish" type="starfish"/>
+      <starfish class="highhi_resourceeditor.models.Starfish" x="444.0" y="1910.0" imagePath="Starfish" type="starfish"/>
+      <starfish class="highhi_resourceeditor.models.Starfish" x="200.0" y="1810.0" imagePath="Starfish" type="starfish"/>
+      <starfish class="highhi_resourceeditor.models.Starfish" x="518.0" y="1810.0" imagePath="Starfish" type="starfish"/>
+      <starfish class="highhi_resourceeditor.models.Starfish" x="140.0" y="1714.0" imagePath="Starfish" type="starfish"/>
+      <starfish class="highhi_resourceeditor.models.Starfish" x="580.0" y="1714.0" imagePath="Starfish" type="starfish"/>
+   </starfishes>
+</pattern>

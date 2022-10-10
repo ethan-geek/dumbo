@@ -1,0 +1,36 @@
+<pattern name="pattern_05_09.xml" difficultyLevel="5" width="640.0" height="1136.0">
+   <coins class="java.util.ArrayList">
+      <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="768.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="968.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="368.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="168.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="220.0" y="868.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="420.0" y="868.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="380.0" y="928.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="254.0" y="928.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="254.0" y="800.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="380.0" y="800.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="220.0" y="268.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="420.0" y="268.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="254.0" y="334.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="380.0" y="334.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="380.0" y="214.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="254.0" y="214.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="104.0" y="528.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="104.0" y="628.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="512.0" y="628.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="512.0" y="528.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+   </coins>
+   <items class="java.util.ArrayList">
+      <item class="highhi_resourceeditor.models.Shield" x="320.0" y="862.0" imagePath="Shield" type="shield"/>
+   </items>
+   <traps class="java.util.ArrayList">
+      <trap class="highhi_resourceeditor.models.Trap" x="320.0" y="632.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="540.0" y="256.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="86.0" y="256.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="540.0" y="980.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="86.0" y="980.0" imagePath="Trap" type="trap"/>
+   </traps>
+   <footBars class="java.util.ArrayList"/>
+   <starfishes class="java.util.ArrayList"/>
+</pattern>

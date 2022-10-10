@@ -1,0 +1,6 @@
+<groupPattern name="group01.xml" difficultyLevel="0" width="640.0" height="2272.0">
+   <patterns class="java.util.ArrayList">
+      <pattern name="resource03.xml" offset="0.0" width="640.0" height="1136.0"/>
+      <pattern name="resource01.xml" offset="0.0" width="640.0" height="1136.0"/>
+   </patterns>
+</groupPattern>

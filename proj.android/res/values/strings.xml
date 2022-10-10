@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dumbo</string>
+    <string name="facebook_app_id">285262105005860</string>
+    <string name="facebook_share_title">Facebook</string>
+</resources>

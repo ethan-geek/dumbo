@@ -1,0 +1,41 @@
+<stagePattern name="ep01_st01.xml" ratio="1.0" height="39456.0">
+   <patterns class="java.util.ArrayList">
+      <groupPattern name="group05.xml" offset="300.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group04.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group01.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group02.xml" offset="0.0" width="320.0" height="768.0"/>
+      <groupPattern name="group01.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group05.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group04.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group03.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group05.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group02.xml" offset="0.0" width="320.0" height="768.0"/>
+      <groupPattern name="group01.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group04.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group02.xml" offset="0.0" width="320.0" height="768.0"/>
+      <groupPattern name="group03.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group05.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group02.xml" offset="0.0" width="320.0" height="768.0"/>
+      <groupPattern name="group01.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group02.xml" offset="0.0" width="320.0" height="768.0"/>
+      <groupPattern name="group03.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group04.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group05.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group04.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group03.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group03.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group01.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group01.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group05.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group02.xml" offset="0.0" width="320.0" height="768.0"/>
+      <groupPattern name="group04.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group01.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group03.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group03.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group05.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group04.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group03.xml" offset="0.0" width="320.0" height="1136.0"/>
+      <groupPattern name="group02.xml" offset="0.0" width="320.0" height="768.0"/>
+      <groupPattern name="group01.xml" offset="0.0" width="320.0" height="1136.0"/>
+   </patterns>
+</stagePattern>

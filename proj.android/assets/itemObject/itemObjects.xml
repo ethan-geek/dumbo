@@ -1,0 +1,9 @@
+<itemObjects>
+    <item id="1" name="SUPER HIGH" description="Increases The Duration Of 'Super-High'" imagePath="upgrade_item_super.png" price="5000"/>
+    <item id="2" name="FULL COIN" description="Increases The Duration Of 'Jewel Box'" imagePath="upgrade_item_fullcoin.png" price="5000"/>
+    <item id="3" name="PARACHUTE" description="Increases The Duration Of 'Water Drop'" imagePath="upgrade_item_drop.png" price="5000"/>
+    <item id="4" name="SHIELD" description="Increases The Duration Of 'Shield'" imagePath="upgrade_item_shield.png" price="5000"/>
+    <item id="5" name="MAGNET" description="Increases The Duration Of 'Magnet'" imagePath="upgrade_item_magnet.png" price="5000"/>
+    <item id="6" name="DOUBLE" description="Increases The Duration Of 'Double-Jewels'" imagePath="upgrade_item_2x.png" price="5000"/>
+    <item id="7" name="START" description="Increases The Duration Of 'Start Rocket'" imagePath="upgrade_item_rocket.png" price="5000"/>
+</itemObjects>

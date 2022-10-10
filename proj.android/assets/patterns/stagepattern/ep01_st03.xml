@@ -1,0 +1,7 @@
+<stagePattern height="8268.0" name="ep01_st03" ratio="1.0">
+   <patterns class="java.util.ArrayList">
+      <groupPattern name="gp03.xml" offset="0.0" width="320.0" height="3868.0"/>
+      <groupPattern name="gp02.xml" offset="0.0" width="320.0" height="2200.0"/>
+      <groupPattern name="gp01.xml" offset="0.0" width="320.0" height="2200.0"/>
+   </patterns>
+</stagePattern>

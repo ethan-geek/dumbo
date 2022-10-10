@@ -1,0 +1,8 @@
+<groupPattern name="gp02.xml" difficultyLevel="0" width="640.0" height="4400.0">
+   <patterns class="java.util.ArrayList">
+      <pattern name="pt05.xml" offset="0.0" width="640.0" height="1100.0"/>
+      <pattern name="pt04.xml" offset="0.0" width="640.0" height="1100.0"/>
+      <pattern name="pt03.xml" offset="0.0" width="640.0" height="1100.0"/>
+      <pattern name="pt02.xml" offset="0.0" width="640.0" height="1100.0"/>
+   </patterns>
+</groupPattern>

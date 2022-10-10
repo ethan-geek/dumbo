@@ -1,0 +1,52 @@
+<pattern name="pattern_04_03.xml" difficultyLevel="4" width="640.0" height="4000.0">
+   <coins class="java.util.ArrayList">
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="176.0" y="650.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="274.0" y="650.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="394.0" y="354.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="302.0" y="354.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="410.0" y="1050.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="296.0" y="1048.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="512.0" y="1346.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="452.0" y="1346.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="170.0" y="2010.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="226.0" y="2010.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="334.0" y="1716.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="388.0" y="1716.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="326.0" y="2440.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="266.0" y="2440.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="532.0" y="2754.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="468.0" y="2754.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="242.0" y="3310.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="180.0" y="3310.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="408.0" y="3662.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="470.0" y="3662.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="350.0" y="354.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="224.0" y="650.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="350.0" y="1048.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="572.0" y="1346.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="442.0" y="1716.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="282.0" y="2010.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="384.0" y="2440.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="406.0" y="2754.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="312.0" y="3310.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="346.0" y="3662.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+   </coins>
+   <items class="java.util.ArrayList">
+      <item class="highhi_resourceeditor.models.SuperItem" x="98.0" y="2012.0" imagePath="SuperItem" type="superItem"/>
+      <item class="highhi_resourceeditor.models.FullCoin" x="550.0" y="2838.0" imagePath="FullCoin" type="fullCoin"/>
+      <item class="highhi_resourceeditor.models.DoubleItem" x="140.0" y="3762.0" imagePath="DoubleItem" type="doubleItem"/>
+   </items>
+   <traps class="java.util.ArrayList"/>
+   <footBars class="java.util.ArrayList">
+      <footBar class="highhi_resourceeditor.models.FootBar" x="194.0" y="820.0" imagePath="FootBar" type="footBar" angle="0.0"/>
+      <footBar class="highhi_resourceeditor.models.FootBar" x="438.0" y="1512.0" imagePath="FootBar" type="footBar" angle="0.0"/>
+      <footBar class="highhi_resourceeditor.models.FootBar" x="222.0" y="2142.0" imagePath="FootBar" type="footBar" angle="0.0"/>
+      <footBar class="highhi_resourceeditor.models.FootBar" x="478.0" y="2952.0" imagePath="FootBar" type="footBar" angle="0.0"/>
+      <footBar class="highhi_resourceeditor.models.FootBar" x="186.0" y="3854.0" imagePath="FootBar" type="footBar" angle="0.0"/>
+      <footBar class="highhi_resourceeditor.models.FootBar" x="500.0" y="124.0" imagePath="FootBar" type="footBar" angle="0.0"/>
+   </footBars>
+   <starfishes class="java.util.ArrayList">
+      <starfish class="highhi_resourceeditor.models.Starfish" x="118.0" y="654.0" imagePath="Starfish" type="starfish"/>
+      <starfish class="highhi_resourceeditor.models.Starfish" x="514.0" y="1354.0" imagePath="Starfish" type="starfish"/>
+   </starfishes>
+</pattern>

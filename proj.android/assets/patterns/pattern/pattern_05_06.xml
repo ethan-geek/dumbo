@@ -1,0 +1,38 @@
+<pattern name="pattern_05_06.xml" difficultyLevel="5" width="640.0" height="2000.0">
+   <coins class="java.util.ArrayList">
+      <coin class="highhi_resourceeditor.models.Coin" x="266.0" y="232.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="156.0" y="432.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="90.0" y="678.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="62.0" y="924.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="160.0" y="1136.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="284.0" y="1302.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="134.0" y="1422.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="196.0" y="1484.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="254.0" y="1512.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="502.0" y="1622.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="442.0" y="1664.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="362.0" y="1708.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="162.0" y="1902.0" imagePath="DynamicCoinBig" type="dynamicCoin" size="big" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="110.0" y="1932.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="110.0" y="1866.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="580.0" y="1900.0" imagePath="DynamicCoinBig" type="dynamicCoin" size="big" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="530.0" y="1932.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="530.0" y="1866.0" imagePath="DynamicCoinSmall" type="dynamicCoin" size="small" destX="0.0" destY="0.0" moveType="circle" velocity="10.0"/>
+   </coins>
+   <items class="java.util.ArrayList">
+      <item class="highhi_resourceeditor.models.SuperItem" x="464.0" y="736.0" imagePath="SuperItem" type="superItem"/>
+      <item class="highhi_resourceeditor.models.FullCoin" x="566.0" y="736.0" imagePath="FullCoin" type="fullCoin"/>
+   </items>
+   <traps class="java.util.ArrayList">
+      <trap class="highhi_resourceeditor.models.Trap" x="544.0" y="104.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="474.0" y="288.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="296.0" y="644.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="304.0" y="854.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="468.0" y="1246.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="552.0" y="1428.0" imagePath="Trap" type="trap"/>
+   </traps>
+   <footBars class="java.util.ArrayList">
+      <footBar class="highhi_resourceeditor.models.FootBar" x="306.0" y="104.0" imagePath="FootBar" type="footBar" angle="0.0"/>
+   </footBars>
+   <starfishes class="java.util.ArrayList"/>
+</pattern>

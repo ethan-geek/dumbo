@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parallaxLayers>
+	<parallaxLayer zIndex="1" size="1">
+		<objectLayers speed="0.9">
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="5" x="464" y="905" />
+					<parallaxObject type="3" x="135" y="792" />
+					<parallaxObject type="4" x="260" y="434" />
+					<parallaxObject type="2" x="120" y="82" />
+				</parallaxObjects>
+			</objectLayer>
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="5" x="468" y="900" />
+					<parallaxObject type="4" x="87" y="578" />
+					<parallaxObject type="3" x="440" y="460" />
+					<parallaxObject type="1" x="99" y="51" />
+				</parallaxObjects>
+			</objectLayer>
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="2" x="380" y="974" />
+					<parallaxObject type="3" x="510" y="514" />
+					<parallaxObject type="5" x="120" y="296" />
+					<parallaxObject type="4" x="348" y="49" />
+				</parallaxObjects>
+			</objectLayer>
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="1" x="96" y="725" />
+					<parallaxObject type="2" x="361" y="442" />
+					<parallaxObject type="3" x="213" y="55" />
+				</parallaxObjects>
+			</objectLayer>
+		</objectLayers>
+	</parallaxLayer>
+	<parallaxLayer zIndex="2" size="2">
+		<objectLayers speed="0.8">
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="5" x="396" y="616" />
+					<parallaxObject type="4" x="-158" y="366" />
+				</parallaxObjects>
+			</objectLayer>
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="3" x="175" y="916" />
+					<parallaxObject type="1" x="-140" y="707" />
+					<parallaxObject type="2" x="390" y="124" />
+				</parallaxObjects>
+			</objectLayer>
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="5" x="5" y="738" />
+					<parallaxObject type="4" x="327" y="300" />
+				</parallaxObjects>
+			</objectLayer>
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="3" x="184" y="970" />
+					<parallaxObject type="1" x="44" y="455" />
+					<parallaxObject type="2" x="410" y="145" />
+				</parallaxObjects>
+			</objectLayer>
+		</objectLayers>
+	</parallaxLayer>
+	<parallaxLayer zIndex="3" size="4">
+		<objectLayers speed="0.7">
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="5" x="-218" y="750" />
+					<parallaxObject type="3" x="260" y="68" />
+				</parallaxObjects>
+			</objectLayer>
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="1" x="475" y="592" />
+					<parallaxObject type="2" x="-269" y="265" />
+				</parallaxObjects>
+			</objectLayer>
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="5" x="170" y="600" />
+					<parallaxObject type="3" x="-259" y="105" />
+				</parallaxObjects>
+			</objectLayer>
+			<objectLayer>
+				<parallaxObjects>
+					<parallaxObject type="1" x="355" y="615" />
+					<parallaxObject type="2" x="-128" y="109" />
+				</parallaxObjects>
+			</objectLayer>
+		</objectLayers>
+	</parallaxLayer>
+</parallaxLayers>

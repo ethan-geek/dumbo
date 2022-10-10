@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\common">
+      <UniqueIdentifier>{87fd1142-671c-4dab-b032-81d06ac7df94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\dao">
+      <UniqueIdentifier>{f4249bdb-0074-46c6-9331-cf03bad5aa05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game">
+      <UniqueIdentifier>{8a14c31f-76df-4c76-9c24-4cc3802ced82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\lib">
+      <UniqueIdentifier>{edfaa816-7e4a-47a5-a309-234b9cb8fa98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\lib_json">
+      <UniqueIdentifier>{fb703210-031b-4aad-8fca-eb2127960f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\model">
+      <UniqueIdentifier>{fccd5823-657d-4ec6-b56a-8ab9e90b1434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\network">
+      <UniqueIdentifier>{8eba6e3a-8a30-40e4-83e1-af2ba58cca19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\pattern">
+      <UniqueIdentifier>{e3c70d2a-3da4-4446-ae86-b1cad264b55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\view">
+      <UniqueIdentifier>{b27cd344-3a45-4abe-b760-5d12111bb2f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\AGUtil.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\HeartChecker.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\HHAlert.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\HHButton.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\HHSecurity.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\HiHighAudio.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\HiHighConnector.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\HiHighGameData.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\HiHighJsonConvecter.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\XmlCreator.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\XmlLoader.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\AGApplication.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\AGEarthQuakeEffect.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\common\AGLog.cpp">
+      <Filter>Classes\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\dao\HiHighDaoSharedUserDefault.cpp">
+      <Filter>Classes\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\BackgroundManager.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\BackgroundSub.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\ChangeColorUtil.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\ContactListener.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GamePlayScene.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GamePlaySceneCore.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GamePlaySceneParts.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Hero.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\HeroAnimation.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\HeroPosition.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\HeroStatus.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\InteractionManager.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\ItemTimer.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\ItemTimerManager.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Background.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\BackgroundFlow.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\BackgroundFull.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lib\GLES-Render.cpp">
+      <Filter>Classes\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lib\pugixml.cpp">
+      <Filter>Classes\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lib\base64.cpp">
+      <Filter>Classes\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lib_json\json_reader.cpp">
+      <Filter>Classes\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lib_json\json_value.cpp">
+      <Filter>Classes\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lib_json\json_writer.cpp">
+      <Filter>Classes\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\DynamicCoin.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\FakeFootBarObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\FootBarObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\FullCoinItemObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\HeartInfo.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\IAPInfo.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\interactionObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\ItemInfo.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\ItemObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\MagnetItemObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\MainPallaxManager.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\SceneManager.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\SettingInfo.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\ShieldItemObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\StageMapInfo.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\StageScoreInfo.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\StarFishObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\StartItemObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\SuperItemObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\TrapObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\UserInfo.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\UserUpgradeInfo.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\WeighItemObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\AGDeviceInfo.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\CoinObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\model\DoubleItemObject.cpp">
+      <Filter>Classes\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\network\HHNetwork.cpp">
+      <Filter>Classes\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pattern\ResourcePattern.cpp">
+      <Filter>Classes\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pattern\StagePattern.cpp">
+      <Filter>Classes\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pattern\GroupPattern.cpp">
+      <Filter>Classes\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pattern\Pattern.cpp">
+      <Filter>Classes\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\ClearPopup.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\GameLoadingScene.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\GameOverPopup.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\HeartReqResPopup.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\HighScoreCell.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\IAPScene.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\LogoScene.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\MainMenuScene.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\MessagePopup.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\PausePopup.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\RankingScreenShotScene.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\RankingView.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\SettingPopup.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\SlidingMenu.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\StageInfoPopup.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\StageMapScene.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\AbilitiesScene.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\BasicPopup.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\CCActivityIndicator.cpp">
+      <Filter>Classes\view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\AGUtil.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\DefaultHeader.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HeartChecker.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HHAlert.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HHButton.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HHEnum.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HHSecurity.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HiHighAudio.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HiHighCommon.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HiHighConnector.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HiHighGameData.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\HiHighJsonConvecter.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\XmlCreator.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\XmlLoader.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\AGApplication.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\AGEarthQuakeEffect.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\common\AGLog.h">
+      <Filter>Classes\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\dao\HiHighDaoSharedUserDefault.h">
+      <Filter>Classes\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\dao\HiHighDao.h">
+      <Filter>Classes\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\BackgroundFull.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\BackgroundManager.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\BackgroundSub.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\ChangeColorUtil.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\ContactListener.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GamePlayScene.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GamePlaySceneCore.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GamePlaySceneParts.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Hero.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\HeroAnimation.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\HeroPosition.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\HeroStatus.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\InteractionManager.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\ItemTimer.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\ItemTimerManager.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Background.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\BackgroundFlow.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib\GLES-Render.h">
+      <Filter>Classes\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib\pugiconfig.hpp">
+      <Filter>Classes\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib\pugixml.hpp">
+      <Filter>Classes\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib\base64.h">
+      <Filter>Classes\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\json_lib.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\json_tool.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\reader.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\value.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\writer.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\autolink.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\config.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\features.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\forwards.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lib_json\json_batchallocator.h">
+      <Filter>Classes\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\DoubleItemObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\DynamicCoin.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\FakeFootBarObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\FootBarObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\FullCoinItemObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\HeartInfo.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\IAPInfo.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\interactionObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\ItemInfo.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\ItemObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\MagnetItemObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\MainPallaxManager.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\SceneManager.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\SettingInfo.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\ShieldItemObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\StageMapInfo.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\StageScoreInfo.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\StarFishObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\StartItemObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\SuperItemObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\TrapObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\UserInfo.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\UserUpgradeInfo.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\WeighItemObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\AGDeviceInfo.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\model\CoinObject.h">
+      <Filter>Classes\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\network\HHNetwork.h">
+      <Filter>Classes\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pattern\Pattern.h">
+      <Filter>Classes\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pattern\ResourcePattern.h">
+      <Filter>Classes\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pattern\StagePattern.h">
+      <Filter>Classes\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pattern\GroupPattern.h">
+      <Filter>Classes\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\ClearPopup.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\GameLoadingScene.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\GameOverPopup.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\HeartReqResPopup.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\HighScoreCell.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\IAPScene.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\LogoScene.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\MainMenuScene.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\MessagePopup.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\PausePopup.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\RankingScreenShotScene.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\RankingView.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\SettingPopup.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\SlidingMenu.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\StageInfoPopup.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\StageMapScene.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\AbilitiesScene.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\BasicPopup.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\CCActivityIndicator.h">
+      <Filter>Classes\view</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\lib_json\json_internalarray.inl">
+      <Filter>Classes\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\lib_json\json_internalmap.inl">
+      <Filter>Classes\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\lib_json\json_valueiterator.inl">
+      <Filter>Classes\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\lib_json\sconscript">
+      <Filter>Classes\lib_json</Filter>
+    </None>
+  </ItemGroup>
+</Project>

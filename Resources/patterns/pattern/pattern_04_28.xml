@@ -1,0 +1,38 @@
+<pattern name="pattern_04_28.xml" difficultyLevel="4" width="640.0" height="2200.0">
+   <coins class="java.util.ArrayList">
+      <coin class="highhi_resourceeditor.models.Coin" x="156.0" y="160.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="228.0" y="254.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="290.0" y="316.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="122.0" y="564.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="176.0" y="650.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="244.0" y="718.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="120.0" y="1020.0" imagePath="CoinBig" type="coin" size="big"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="194.0" y="1114.0" imagePath="CoinNormal" type="coin" size="normal"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="256.0" y="1164.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="264.0" y="1748.0" imagePath="DynamicCoinNormal" type="dynamicCoin" size="normal" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="402.0" y="1746.0" imagePath="DynamicCoinBig" type="dynamicCoin" size="big" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="536.0" y="1746.0" imagePath="DynamicCoinNormal" type="dynamicCoin" size="normal" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="414.0" y="2080.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="238.0" y="2078.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="94.0" y="1992.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.Coin" x="552.0" y="2008.0" imagePath="CoinSmall" type="coin" size="small"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="210.0" y="1456.0" imagePath="DynamicCoinBig" type="dynamicCoin" size="big" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="90.0" y="1456.0" imagePath="DynamicCoinNormal" type="dynamicCoin" size="normal" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+      <coin class="highhi_resourceeditor.models.DynamicCoin" x="338.0" y="1456.0" imagePath="DynamicCoinNormal" type="dynamicCoin" size="normal" destX="0.0" destY="0.0" moveType="circle" velocity="8.0"/>
+   </coins>
+   <items class="java.util.ArrayList">
+      <item class="highhi_resourceeditor.models.Magnet" x="570.0" y="250.0" imagePath="Magnet" type="magnet"/>
+      <item class="highhi_resourceeditor.models.Umbrella" x="398.0" y="592.0" imagePath="Umbrella" type="umbrella"/>
+      <item class="highhi_resourceeditor.models.DoubleItem" x="574.0" y="942.0" imagePath="DoubleItem" type="doubleItem"/>
+   </items>
+   <traps class="java.util.ArrayList">
+      <trap class="highhi_resourceeditor.models.Trap" x="484.0" y="1188.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="484.0" y="826.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="486.0" y="472.0" imagePath="Trap" type="trap"/>
+      <trap class="highhi_resourceeditor.models.Trap" x="488.0" y="124.0" imagePath="Trap" type="trap"/>
+   </traps>
+   <footBars class="java.util.ArrayList"/>
+   <starfishes class="java.util.ArrayList">
+      <starfish class="highhi_resourceeditor.models.Starfish" x="486.0" y="1300.0" imagePath="Starfish" type="starfish"/>
+   </starfishes>
+</pattern>

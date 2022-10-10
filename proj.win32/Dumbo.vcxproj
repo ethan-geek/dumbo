@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\common\AGApplication.cpp" />
+    <ClCompile Include="..\Classes\common\AGEarthQuakeEffect.cpp" />
+    <ClCompile Include="..\Classes\common\AGLog.cpp" />
+    <ClCompile Include="..\Classes\common\AGUtil.cpp" />
+    <ClCompile Include="..\Classes\common\HeartChecker.cpp" />
+    <ClCompile Include="..\Classes\common\HHAlert.cpp" />
+    <ClCompile Include="..\Classes\common\HHButton.cpp" />
+    <ClCompile Include="..\Classes\common\HHSecurity.cpp" />
+    <ClCompile Include="..\Classes\common\HiHighAudio.cpp" />
+    <ClCompile Include="..\Classes\common\HiHighConnector.cpp" />
+    <ClCompile Include="..\Classes\common\HiHighGameData.cpp" />
+    <ClCompile Include="..\Classes\common\HiHighJsonConvecter.cpp" />
+    <ClCompile Include="..\Classes\common\XmlCreator.cpp" />
+    <ClCompile Include="..\Classes\common\XmlLoader.cpp" />
+    <ClCompile Include="..\Classes\dao\HiHighDaoSharedUserDefault.cpp" />
+    <ClCompile Include="..\Classes\game\Background.cpp" />
+    <ClCompile Include="..\Classes\game\BackgroundFlow.cpp" />
+    <ClCompile Include="..\Classes\game\BackgroundFull.cpp" />
+    <ClCompile Include="..\Classes\game\BackgroundManager.cpp" />
+    <ClCompile Include="..\Classes\game\BackgroundSub.cpp" />
+    <ClCompile Include="..\Classes\game\ChangeColorUtil.cpp" />
+    <ClCompile Include="..\Classes\game\ContactListener.cpp" />
+    <ClCompile Include="..\Classes\game\GamePlayScene.cpp" />
+    <ClCompile Include="..\Classes\game\GamePlaySceneCore.cpp" />
+    <ClCompile Include="..\Classes\game\GamePlaySceneParts.cpp" />
+    <ClCompile Include="..\Classes\game\Hero.cpp" />
+    <ClCompile Include="..\Classes\game\HeroAnimation.cpp" />
+    <ClCompile Include="..\Classes\game\HeroPosition.cpp" />
+    <ClCompile Include="..\Classes\game\HeroStatus.cpp" />
+    <ClCompile Include="..\Classes\game\InteractionManager.cpp" />
+    <ClCompile Include="..\Classes\game\ItemTimer.cpp" />
+    <ClCompile Include="..\Classes\game\ItemTimerManager.cpp" />
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\lib\base64.cpp" />
+    <ClCompile Include="..\Classes\lib\GLES-Render.cpp" />
+    <ClCompile Include="..\Classes\lib\pugixml.cpp" />
+    <ClCompile Include="..\Classes\lib_json\json_reader.cpp" />
+    <ClCompile Include="..\Classes\lib_json\json_value.cpp" />
+    <ClCompile Include="..\Classes\lib_json\json_writer.cpp" />
+    <ClCompile Include="..\Classes\model\AGDeviceInfo.cpp" />
+    <ClCompile Include="..\Classes\model\CoinObject.cpp" />
+    <ClCompile Include="..\Classes\model\DoubleItemObject.cpp" />
+    <ClCompile Include="..\Classes\model\DynamicCoin.cpp" />
+    <ClCompile Include="..\Classes\model\FakeFootBarObject.cpp" />
+    <ClCompile Include="..\Classes\model\FootBarObject.cpp" />
+    <ClCompile Include="..\Classes\model\FullCoinItemObject.cpp" />
+    <ClCompile Include="..\Classes\model\HeartInfo.cpp" />
+    <ClCompile Include="..\Classes\model\IAPInfo.cpp" />
+    <ClCompile Include="..\Classes\model\interactionObject.cpp" />
+    <ClCompile Include="..\Classes\model\ItemInfo.cpp" />
+    <ClCompile Include="..\Classes\model\ItemObject.cpp" />
+    <ClCompile Include="..\Classes\model\MagnetItemObject.cpp" />
+    <ClCompile Include="..\Classes\model\MainPallaxManager.cpp" />
+    <ClCompile Include="..\Classes\model\SceneManager.cpp" />
+    <ClCompile Include="..\Classes\model\SettingInfo.cpp" />
+    <ClCompile Include="..\Classes\model\ShieldItemObject.cpp" />
+    <ClCompile Include="..\Classes\model\StageMapInfo.cpp" />
+    <ClCompile Include="..\Classes\model\StageScoreInfo.cpp" />
+    <ClCompile Include="..\Classes\model\StarFishObject.cpp" />
+    <ClCompile Include="..\Classes\model\StartItemObject.cpp" />
+    <ClCompile Include="..\Classes\model\SuperItemObject.cpp" />
+    <ClCompile Include="..\Classes\model\TrapObject.cpp" />
+    <ClCompile Include="..\Classes\model\UserInfo.cpp" />
+    <ClCompile Include="..\Classes\model\UserUpgradeInfo.cpp" />
+    <ClCompile Include="..\Classes\model\WeighItemObject.cpp" />
+    <ClCompile Include="..\Classes\network\HHNetwork.cpp" />
+    <ClCompile Include="..\Classes\pattern\GroupPattern.cpp" />
+    <ClCompile Include="..\Classes\pattern\Pattern.cpp" />
+    <ClCompile Include="..\Classes\pattern\ResourcePattern.cpp" />
+    <ClCompile Include="..\Classes\pattern\StagePattern.cpp" />
+    <ClCompile Include="..\Classes\view\AbilitiesScene.cpp" />
+    <ClCompile Include="..\Classes\view\BasicPopup.cpp" />
+    <ClCompile Include="..\Classes\view\CCActivityIndicator.cpp" />
+    <ClCompile Include="..\Classes\view\ClearPopup.cpp" />
+    <ClCompile Include="..\Classes\view\GameLoadingScene.cpp" />
+    <ClCompile Include="..\Classes\view\GameOverPopup.cpp" />
+    <ClCompile Include="..\Classes\view\HeartReqResPopup.cpp" />
+    <ClCompile Include="..\Classes\view\HighScoreCell.cpp" />
+    <ClCompile Include="..\Classes\view\IAPScene.cpp" />
+    <ClCompile Include="..\Classes\view\LogoScene.cpp" />
+    <ClCompile Include="..\Classes\view\MainMenuScene.cpp" />
+    <ClCompile Include="..\Classes\view\MessagePopup.cpp" />
+    <ClCompile Include="..\Classes\view\PausePopup.cpp" />
+    <ClCompile Include="..\Classes\view\RankingScreenShotScene.cpp" />
+    <ClCompile Include="..\Classes\view\RankingView.cpp" />
+    <ClCompile Include="..\Classes\view\SettingPopup.cpp" />
+    <ClCompile Include="..\Classes\view\SlidingMenu.cpp" />
+    <ClCompile Include="..\Classes\view\StageInfoPopup.cpp" />
+    <ClCompile Include="..\Classes\view\StageMapScene.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\common\AGApplication.h" />
+    <ClInclude Include="..\Classes\common\AGEarthQuakeEffect.h" />
+    <ClInclude Include="..\Classes\common\AGLog.h" />
+    <ClInclude Include="..\Classes\common\AGUtil.h" />
+    <ClInclude Include="..\Classes\common\DefaultHeader.h" />
+    <ClInclude Include="..\Classes\common\HeartChecker.h" />
+    <ClInclude Include="..\Classes\common\HHAlert.h" />
+    <ClInclude Include="..\Classes\common\HHButton.h" />
+    <ClInclude Include="..\Classes\common\HHEnum.h" />
+    <ClInclude Include="..\Classes\common\HHSecurity.h" />
+    <ClInclude Include="..\Classes\common\HiHighAudio.h" />
+    <ClInclude Include="..\Classes\common\HiHighCommon.h" />
+    <ClInclude Include="..\Classes\common\HiHighConnector.h" />
+    <ClInclude Include="..\Classes\common\HiHighGameData.h" />
+    <ClInclude Include="..\Classes\common\HiHighJsonConvecter.h" />
+    <ClInclude Include="..\Classes\common\XmlCreator.h" />
+    <ClInclude Include="..\Classes\common\XmlLoader.h" />
+    <ClInclude Include="..\Classes\dao\HiHighDao.h" />
+    <ClInclude Include="..\Classes\dao\HiHighDaoSharedUserDefault.h" />
+    <ClInclude Include="..\Classes\game\Background.h" />
+    <ClInclude Include="..\Classes\game\BackgroundFlow.h" />
+    <ClInclude Include="..\Classes\game\BackgroundFull.h" />
+    <ClInclude Include="..\Classes\game\BackgroundManager.h" />
+    <ClInclude Include="..\Classes\game\BackgroundSub.h" />
+    <ClInclude Include="..\Classes\game\ChangeColorUtil.h" />
+    <ClInclude Include="..\Classes\game\ContactListener.h" />
+    <ClInclude Include="..\Classes\game\GamePlayScene.h" />
+    <ClInclude Include="..\Classes\game\GamePlaySceneCore.h" />
+    <ClInclude Include="..\Classes\game\GamePlaySceneParts.h" />
+    <ClInclude Include="..\Classes\game\Hero.h" />
+    <ClInclude Include="..\Classes\game\HeroAnimation.h" />
+    <ClInclude Include="..\Classes\game\HeroPosition.h" />
+    <ClInclude Include="..\Classes\game\HeroStatus.h" />
+    <ClInclude Include="..\Classes\game\InteractionManager.h" />
+    <ClInclude Include="..\Classes\game\ItemTimer.h" />
+    <ClInclude Include="..\Classes\game\ItemTimerManager.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\lib\base64.h" />
+    <ClInclude Include="..\Classes\lib\GLES-Render.h" />
+    <ClInclude Include="..\Classes\lib\pugiconfig.hpp" />
+    <ClInclude Include="..\Classes\lib\pugixml.hpp" />
+    <ClInclude Include="..\Classes\lib_json\autolink.h" />
+    <ClInclude Include="..\Classes\lib_json\config.h" />
+    <ClInclude Include="..\Classes\lib_json\features.h" />
+    <ClInclude Include="..\Classes\lib_json\forwards.h" />
+    <ClInclude Include="..\Classes\lib_json\json_batchallocator.h" />
+    <ClInclude Include="..\Classes\lib_json\json_lib.h" />
+    <ClInclude Include="..\Classes\lib_json\json_tool.h" />
+    <ClInclude Include="..\Classes\lib_json\reader.h" />
+    <ClInclude Include="..\Classes\lib_json\value.h" />
+    <ClInclude Include="..\Classes\lib_json\writer.h" />
+    <ClInclude Include="..\Classes\model\AGDeviceInfo.h" />
+    <ClInclude Include="..\Classes\model\CoinObject.h" />
+    <ClInclude Include="..\Classes\model\DoubleItemObject.h" />
+    <ClInclude Include="..\Classes\model\DynamicCoin.h" />
+    <ClInclude Include="..\Classes\model\FakeFootBarObject.h" />
+    <ClInclude Include="..\Classes\model\FootBarObject.h" />
+    <ClInclude Include="..\Classes\model\FullCoinItemObject.h" />
+    <ClInclude Include="..\Classes\model\HeartInfo.h" />
+    <ClInclude Include="..\Classes\model\IAPInfo.h" />
+    <ClInclude Include="..\Classes\model\interactionObject.h" />
+    <ClInclude Include="..\Classes\model\ItemInfo.h" />
+    <ClInclude Include="..\Classes\model\ItemObject.h" />
+    <ClInclude Include="..\Classes\model\MagnetItemObject.h" />
+    <ClInclude Include="..\Classes\model\MainPallaxManager.h" />
+    <ClInclude Include="..\Classes\model\SceneManager.h" />
+    <ClInclude Include="..\Classes\model\SettingInfo.h" />
+    <ClInclude Include="..\Classes\model\ShieldItemObject.h" />
+    <ClInclude Include="..\Classes\model\StageMapInfo.h" />
+    <ClInclude Include="..\Classes\model\StageScoreInfo.h" />
+    <ClInclude Include="..\Classes\model\StarFishObject.h" />
+    <ClInclude Include="..\Classes\model\StartItemObject.h" />
+    <ClInclude Include="..\Classes\model\SuperItemObject.h" />
+    <ClInclude Include="..\Classes\model\TrapObject.h" />
+    <ClInclude Include="..\Classes\model\UserInfo.h" />
+    <ClInclude Include="..\Classes\model\UserUpgradeInfo.h" />
+    <ClInclude Include="..\Classes\model\WeighItemObject.h" />
+    <ClInclude Include="..\Classes\network\HHNetwork.h" />
+    <ClInclude Include="..\Classes\pattern\GroupPattern.h" />
+    <ClInclude Include="..\Classes\pattern\Pattern.h" />
+    <ClInclude Include="..\Classes\pattern\ResourcePattern.h" />
+    <ClInclude Include="..\Classes\pattern\StagePattern.h" />
+    <ClInclude Include="..\Classes\view\AbilitiesScene.h" />
+    <ClInclude Include="..\Classes\view\BasicPopup.h" />
+    <ClInclude Include="..\Classes\view\CCActivityIndicator.h" />
+    <ClInclude Include="..\Classes\view\ClearPopup.h" />
+    <ClInclude Include="..\Classes\view\GameLoadingScene.h" />
+    <ClInclude Include="..\Classes\view\GameOverPopup.h" />
+    <ClInclude Include="..\Classes\view\HeartReqResPopup.h" />
+    <ClInclude Include="..\Classes\view\HighScoreCell.h" />
+    <ClInclude Include="..\Classes\view\IAPScene.h" />
+    <ClInclude Include="..\Classes\view\LogoScene.h" />
+    <ClInclude Include="..\Classes\view\MainMenuScene.h" />
+    <ClInclude Include="..\Classes\view\MessagePopup.h" />
+    <ClInclude Include="..\Classes\view\PausePopup.h" />
+    <ClInclude Include="..\Classes\view\RankingScreenShotScene.h" />
+    <ClInclude Include="..\Classes\view\RankingView.h" />
+    <ClInclude Include="..\Classes\view\SettingPopup.h" />
+    <ClInclude Include="..\Classes\view\SlidingMenu.h" />
+    <ClInclude Include="..\Classes\view\StageInfoPopup.h" />
+    <ClInclude Include="..\Classes\view\StageMapScene.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\lib_json\json_internalarray.inl" />
+    <None Include="..\Classes\lib_json\json_internalmap.inl" />
+    <None Include="..\Classes\lib_json\json_valueiterator.inl" />
+    <None Include="..\Classes\lib_json\sconscript" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,23 @@
+<pattern name="test_starfish.xml" difficultyLevel="0" width="640.0" height="1136.0">
+   <coins class="java.util.ArrayList">
+    <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="900.0" imagePath="CoinNormal" type="coin" size="normal"/>
+    <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="800.0" imagePath="CoinNormal" type="coin" size="normal"/>
+ 	 <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="700.0" imagePath="CoinNormal" type="coin" size="normal"/>
+	 <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="600.0" imagePath="CoinNormal" type="coin" size="normal"/>
+	 <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="500.0" imagePath="CoinNormal" type="coin" size="normal"/>
+	 <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="441.0" imagePath="CoinNormal" type="coin" size="normal"/>
+	 <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="400.0" imagePath="CoinNormal" type="coin" size="normal"/>
+	 <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="300.0" imagePath="CoinNormal" type="coin" size="normal"/>
+	 <coin class="highhi_resourceeditor.models.Coin" x="320.0" y="100.0" imagePath="CoinNormal" type="coin" size="normal"/>
+	</coins>
+	<items class="java.util.ArrayList">
+     <!-- <item class="highhi_resourceeditor.models.Umbrella" x="124.0" y="806.0" imagePath="Umbrella" type="umbrella"/> -->
+	 <!--<item class="highhi_resourceeditor.models.DoubleItem" x="322.0" y="1610.0" imagePath="DoubleItem" type="doubleItem"/> -->
+     <!-- <item class="highhi_resourceeditor.models.Magnet" x="320.0" y="440.0" imagePath="DoubleItem" type="doubleItem"/> -->
+	 
+			<item class="highhi_resourceeditor.models.FullCoin" x="320.0" y="440.0" imagePath="DoubleItem" type="doubleItem"/>
+   </items>
+   <traps class="java.util.ArrayList"/>
+   <footBars class="java.util.ArrayList"/>
+   
+</pattern>
